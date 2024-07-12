@@ -1,7 +1,8 @@
+
 ```markdown
 # Exam Preparation Console Application
 
-This is a simple console application designed to help students prepare for exams by providing multiple-choice questions and immediate feedback.
+This is a simple console application built with Scala, designed to help students prepare for exams by providing multiple-choice questions and immediate feedback.
 
 ## Features
 
@@ -15,48 +16,29 @@ This is a simple console application designed to help students prepare for exams
 ### Prerequisites
 
 - JDK (Java Development Kit) 8 or higher
-- Git
+- Scala 2.13 or higher
+- SBT (Scala Build Tool)
+- IntelliJ IDEA (recommended)
 
-### Installation
+### Installation and Running
 
-1. **Clone the repository:**
+1. **Clone the repository using IntelliJ IDEA:**
+   - Open IntelliJ IDEA.
+   - Click on `File` -> `New` -> `Project from Version Control...`.
+   - In the dialog that appears, enter the URL of the GitHub repository:
+     ```plaintext
+     https://github.com/yourusername/exam-preparation-console-app.git
+     ```
+   - Click `Clone`.
 
-   ```sh
-   git clone https://github.com/yourusername/exam-preparation-console-app.git
-   ```
+2. **Open the project in IntelliJ IDEA:**
+   - IntelliJ will automatically detect the SBT project and start importing it.
+   - Wait for the project to be fully imported and dependencies to be resolved.
 
-2. **Navigate to the project directory:**
-
-   ```sh
-   cd exam-preparation-console-app
-   ```
-
-### Running the Application
-
-1. **Open your IDE (e.g., IntelliJ IDEA, Eclipse, VS Code).**
-
-2. **Import the project as a Maven or Gradle project (depending on your build system).**
-
-3. **Compile the application within your IDE.**
-
-4. **Run the `Main` class from your IDE:**
-
-    - Locate the `Main` class in the `src/main/java` directory.
-    - Right-click on the `Main` class and select `Run`.
-
-Alternatively, you can run the application from the terminal:
-
-1. **Compile the application:**
-
-   ```sh
-   javac -d bin src/main/java/*.java
-   ```
-
-2. **Run the application:**
-
-   ```sh
-   java -cp bin Main
-   ```
+3. **Run the application:**
+   - In the Project tool window, navigate to `src/main/scala`.
+   - Right-click on `ConsoleApp.scala`.
+   - Select `Run 'ConsoleApp'`.
 
 ### Usage
 
@@ -172,9 +154,9 @@ If you have suggestions for improving the application, feel free to open an issu
 
 ### Contact
 
-If you have any questions, feel free to contact me at soomoalex@gmail.com .
+If you have any questions, feel free to contact me at [your-email@example.com].
 
 ---
 
 Happy studying!
-```
+
