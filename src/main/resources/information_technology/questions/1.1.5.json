@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Яка складність алгоритму пошуку в ширину (BFS) у найгіршому випадку?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(V + E)",
+        "O(V^2)"
+      ],
+      "correctOption": "O(V + E)"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Яка складність алгоритму пошуку в глибину (DFS) у найгіршому випадку?",
+      "options": [
+        "O(1)",
+        "O(n)",
+        "O(V + E)",
+        "O(V^2)"
+      ],
+      "correctOption": "O(V + E)"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Який з алгоритмів використовується для пошуку зв'язних компонентів у графі?",
+      "options": [
+        "BFS",
+        "DFS",
+        "Алгоритм Дейкстри",
+        "Алгоритм Прима"
+      ],
+      "correctOption": "DFS"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Який алгоритм використовується для побудови кістякового дерева?",
+      "options": [
+        "Алгоритм Дейкстри",
+        "Алгоритм Прима",
+        "BFS",
+        "DFS"
+      ],
+      "correctOption": "Алгоритм Прима"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Яка складність алгоритму Прима у найгіршому випадку?",
+      "options": [
+        "O(V^2)",
+        "O(V + E)",
+        "O(E log V)",
+        "O(V log V)"
+      ],
+      "correctOption": "O(E log V)"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Який алгоритм знаходить найкоротші шляхи з виділеної вершини до всіх інших вершин?",
+      "options": [
+        "Алгоритм Флойда-Воршелла",
+        "Алгоритм Беллмана-Форда",
+        "Алгоритм Дейкстри",
+        "BFS"
+      ],
+      "correctOption": "Алгоритм Дейкстри"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Яка складність алгоритму Дейкстри у найгіршому випадку з використанням черги з пріоритетами?",
+      "options": [
+        "O(V^2)",
+        "O(V + E)",
+        "O(E log V)",
+        "O(V log V)"
+      ],
+      "correctOption": "O(E log V)"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Який алгоритм знаходить найкоротші шляхи між усіма парами вершин?",
+      "options": [
+        "Алгоритм Флойда-Воршелла",
+        "Алгоритм Беллмана-Форда",
+        "Алгоритм Дейкстри",
+        "BFS"
+      ],
+      "correctOption": "Алгоритм Флойда-Воршелла"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Яка складність алгоритму Флойда-Воршелла у найгіршому випадку?",
+      "options": [
+        "O(V^3)",
+        "O(V^2)",
+        "O(V log V)",
+        "O(E log V)"
+      ],
+      "correctOption": "O(V^3)"
+    },
+    {
+      "section": 1,
+      "subsection": 1,
+      "subsubsection": 5,
+      "question": "Який алгоритм може обробляти графи з негативними вагами ребер?",
+      "options": [
+        "Алгоритм Дейкстри",
+        "Алгоритм Прима",
+        "Алгоритм Флойда-Воршелла",
+        "BFS"
+      ],
+      "correctOption": "Алгоритм Флойда-Воршелла"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Що таке класифікація Флінна?",
+      "options": [
+        "Класифікація алгоритмів за складністю",
+        "Класифікація мов програмування за рівнем абстракції",
+        "Класифікація моделей паралельних обчислень",
+        "Класифікація типів даних у програмуванні"
+      ],
+      "correctOption": "Класифікація моделей паралельних обчислень"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Які категорії входять до класифікації Флінна?",
+      "options": [
+        "SISD, SIMD, MISD, MIMD",
+        "SISD, SIMT, MISD, MIMT",
+        "SISO, SIMO, MISO, MIMO",
+        "SISO, SIMT, MISO, MIMT"
+      ],
+      "correctOption": "SISD, SIMD, MISD, MIMD"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Що означає абревіатура SISD?",
+      "options": [
+        "Single Instruction, Single Data",
+        "Single Instruction, Single Device",
+        "Single Interface, Single Data",
+        "Single Interface, Single Device"
+      ],
+      "correctOption": "Single Instruction, Single Data"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Що означає абревіатура SIMD?",
+      "options": [
+        "Single Instruction, Multiple Data",
+        "Single Instruction, Multiple Devices",
+        "Single Interface, Multiple Data",
+        "Single Interface, Multiple Devices"
+      ],
+      "correctOption": "Single Instruction, Multiple Data"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Що означає абревіатура MISD?",
+      "options": [
+        "Multiple Instruction, Single Data",
+        "Multiple Instruction, Single Device",
+        "Multiple Interface, Single Data",
+        "Multiple Interface, Single Device"
+      ],
+      "correctOption": "Multiple Instruction, Single Data"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Що означає абревіатура MIMD?",
+      "options": [
+        "Multiple Instruction, Multiple Data",
+        "Multiple Instruction, Multiple Devices",
+        "Multiple Interface, Multiple Data",
+        "Multiple Interface, Multiple Devices"
+      ],
+      "correctOption": "Multiple Instruction, Multiple Data"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Яка модель паралельних обчислень використовується в суперкомп'ютерах?",
+      "options": [
+        "SISD",
+        "SIMD",
+        "MISD",
+        "MIMD"
+      ],
+      "correctOption": "MIMD"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Яка модель паралельних обчислень є найбільш поширеною в графічних процесорах (GPU)?",
+      "options": [
+        "SISD",
+        "SIMD",
+        "MISD",
+        "MIMD"
+      ],
+      "correctOption": "SIMD"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Яка з моделей класифікації Флінна є найбільш рідкісною і чому?",
+      "options": [
+        "SISD, оскільки не підтримує паралельні обчислення",
+        "SIMD, оскільки обмежена одночасним виконанням однієї інструкції",
+        "MISD, оскільки важко знайти приклади задач, де ця модель ефективна",
+        "MIMD, оскільки вимагає складної синхронізації"
+      ],
+      "correctOption": "MISD, оскільки важко знайти приклади задач, де ця модель ефективна"
+    },
+    {
+      "section": 9,
+      "subsection": 3,
+      "question": "Яка модель паралельних обчислень підтримує виконання однієї інструкції над кількома даними одночасно?",
+      "options": [
+        "SISD",
+        "SIMD",
+        "MISD",
+        "MIMD"
+      ],
+      "correctOption": "SIMD"
+    }
+  ]
+}

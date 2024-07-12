@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Що таке SQL (Structured Query Language)?",
+      "options": [
+        "Мова програмування для створення програм",
+        "Мова для створення запитів до бази даних",
+        "Мова для написання сценаріїв резервного копіювання",
+        "Мова для опису моделі даних"
+      ],
+      "correctOption": "Мова для створення запитів до бази даних"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Що таке DDL (Data Definition Language)?",
+      "options": [
+        "Мова для створення і модифікації структури бази даних",
+        "Мова для маніпуляції даними у базі даних",
+        "Мова для керування доступом до даних у базі даних",
+        "Мова для контролю транзакцій у базі даних"
+      ],
+      "correctOption": "Мова для створення і модифікації структури бази даних"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Що таке DML (Data Manipulation Language)?",
+      "options": [
+        "Мова для створення і модифікації структури бази даних",
+        "Мова для маніпуляції даними у базі даних",
+        "Мова для керування доступом до даних у базі даних",
+        "Мова для контролю транзакцій у базі даних"
+      ],
+      "correctOption": "Мова для маніпуляції даними у базі даних"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Що таке DCL (Data Control Language)?",
+      "options": [
+        "Мова для створення і модифікації структури бази даних",
+        "Мова для маніпуляції даними у базі даних",
+        "Мова для керування доступом до даних у базі даних",
+        "Мова для контролю транзакцій у базі даних"
+      ],
+      "correctOption": "Мова для керування доступом до даних у базі даних"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Що таке TCL (Transaction Control Language)?",
+      "options": [
+        "Мова для створення і модифікації структури бази даних",
+        "Мова для маніпуляції даними у базі даних",
+        "Мова для керування доступом до даних у базі даних",
+        "Мова для контролю транзакцій у базі даних"
+      ],
+      "correctOption": "Мова для контролю транзакцій у базі даних"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Яка з наведених команд належить до DDL?",
+      "options": [
+        "INSERT",
+        "UPDATE",
+        "CREATE",
+        "SELECT"
+      ],
+      "correctOption": "CREATE"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Яка з наведених команд належить до DML?",
+      "options": [
+        "ALTER",
+        "DROP",
+        "GRANT",
+        "UPDATE"
+      ],
+      "correctOption": "UPDATE"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Яка з наведених команд належить до DCL?",
+      "options": [
+        "INSERT",
+        "REVOKE",
+        "COMMIT",
+        "DELETE"
+      ],
+      "correctOption": "REVOKE"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Яка з наведених команд належить до TCL?",
+      "options": [
+        "SELECT",
+        "GRANT",
+        "ROLLBACK",
+        "DROP"
+      ],
+      "correctOption": "ROLLBACK"
+    },
+    {
+      "section": 3,
+      "subsection": 5,
+      "question": "Яка команда використовується для додавання нових даних до таблиці у SQL?",
+      "options": [
+        "CREATE",
+        "INSERT",
+        "UPDATE",
+        "DELETE"
+      ],
+      "correctOption": "INSERT"
+    }
+  ]
+}

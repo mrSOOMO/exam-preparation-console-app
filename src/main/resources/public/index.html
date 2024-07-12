@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Testing App</title>
+    <link rel="stylesheet" href="/public/style.css">
+    <script src="/public/index.js" defer></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="logo" id="logo1">Logo 1</div>
+        <h1>Тести ЄФВВ онлайн з предмета<br>«Інформаційні технології»</h1>
+        <div class="logo" id="logo2">Logo 2</div>
+    </header>
+    <main>
+        <div class="test-options">
+            <div class="test-option">
+                <button id="standard-test-btn">Стандартний ЄФВВ</button>
+                <p>Загальна кількість тестових завдань: 140<br>Тривалість тестування: 180 хв.</p>
+            </div>
+            <div class="test-option">
+                <button id="demo-test-btn">Демо ЄФВВ</button>
+                <p>Загальна кількість тестових завдань: 31<br>Тривалість тестування: 40 хв.</p>
+            </div>
+            <div class="test-option">
+                <button id="full-test-btn" onclick="window.location.href='/full_test.html'">Повний ЄФВВ</button>
+                <p>Загальна кількість тестових завдань: MAX<br>Тривалість тестування: no timer</p>
+            </div>
+            <div class="test-option">
+                <button id="custom-test-btn">Custom ЄФВВ</button>
+                <p>Загальна кількість тестових завдань: на Ваш вибір<br>Тривалість тестування: N(Q) * 77 сек.</p>
+                <input type="number" id="custom-question-count" min="1" max="MAX" placeholder="Set Q Num from 1 to Max">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button id="all-questions-btn" onclick="window.location.href='/all_questions.html'">Всі запитання з предмета</button>
+        <div>My Info as a Creator</div>
+        <div>my social link button</div>
+    </footer>
+</div>
+</body>
+</html>
